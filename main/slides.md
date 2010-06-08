@@ -19,8 +19,16 @@
 
 * Ideas have been around for awhile
 * RDBMS started with consistency, NoSQL started with availability
-* SQL isn't slow, ACID adds a lot of overhead
+* SQL isn't slow, ACID impls add a lot of overhead
 * Different consistency models for different data
+
+!SLIDE bullets incremental
+
+# NoSQL Nutshell #
+
+* No joins, light tx semantics
+* Enable horizontal scaling
+* Differ in scale-out, consistency, and data models
 
 !SLIDE bullets incremental
 
@@ -31,13 +39,18 @@
 
 !SLIDE
 
-# Doug Crockford is Grumpy #
+# Doug Crockford is very Grumpy #
 
 !SLIDE
 
-# DOM is Busted #
+## "A Mashup is a self inflicted XSS attack." - Doug Crockford  ##
 
 ## Safe Javascript Subsets ##
+
+* Deny access to global object and DOM
+* caja - http://code.google.com/p/google-caja/
+* ADsafe - http://www.adsafe.org/
+
 
 !SLIDE
 
